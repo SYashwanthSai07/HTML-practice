@@ -8,4 +8,9 @@ for i in range(len(string)):
         print(to_print); time.sleep(0.01)
         if j == string[i]:
             result += string[i]
-            break
+            break   
+
+print("\n\n\n")
+print("Final Result: " + result)
+print("Length of the string is: " + str(len(result)))
+print("Time taken to print the string: " + str(len(result) * 0.01) + " seconds") 
